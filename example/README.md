@@ -13,4 +13,4 @@ You have to be registered on test.pypi.org first
 You have to be registered on pypi.org first  
 
     twine upload dist/*
-    pip install distributions
+    pip install --index-url https://pypi.org/simple distributions

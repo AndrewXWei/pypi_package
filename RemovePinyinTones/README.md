@@ -1,43 +1,150 @@
 # Remove pinyin tones from pinyin
 ## logics
 ### pinyin tone mapping  
-  
-    | from | to |  
-    | - | - |  
-    | ā | a |  
-    | á | a |  
-    | ǎ | a |  
-    | à | a |  
-    | ō | o |  
-    | ó | o |  
-    | ǒ | o |  
-    | ò | o |  
-    | ē | e |  
-    | é | e |  
-    | ě | e |  
-    | è | e |  
-    | ī | i |  
-    | í | i |  
-    | ǐ | i |  
-    | ì | i |  
-    | ū | u |  
-    | ú | u |  
-    | ǔ | u |  
-    | ù | u |  
-    | ǖ | v |  
-    | ǘ | v |  
-    | ǚ | v |  
-    | ǜ | v |  
-    | ü | v |  
-    | ń | n |  
-    | ň | n |  
-    | ǹ | n |  
-    | ẑ | z |  
-    | ĉ | c |  
-    | ŝ | s |  
-    | ɡ | g |  
-    | ɑ | a |  
+<table class="table table-striped table-bordered">
+<thead>
+<tr>
+<th>from</th>
+<th>to</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ā</td>
+<td>a</td>
+</tr>
+<tr>
+<td>á</td>
+<td>a</td>
+</tr>
+<tr>
+<td>ǎ</td>
+<td>a</td>
+</tr>
+<tr>
+<td>à</td>
+<td>a</td>
+</tr>
+<tr>
+<td>ō</td>
+<td>o</td>
+</tr>
+<tr>
+<td>ó</td>
+<td>o</td>
+</tr>
+<tr>
+<td>ǒ</td>
+<td>o</td>
+</tr>
+<tr>
+<td>ò</td>
+<td>o</td>
+</tr>
+<tr>
+<td>ē</td>
+<td>e</td>
+</tr>
+<tr>
+<td>é</td>
+<td>e</td>
+</tr>
+<tr>
+<td>ě</td>
+<td>e</td>
+</tr>
+<tr>
+<td>è</td>
+<td>e</td>
+</tr>
+<tr>
+<td>ī</td>
+<td>i</td>
+</tr>
+<tr>
+<td>í</td>
+<td>i</td>
+</tr>
+<tr>
+<td>ǐ</td>
+<td>i</td>
+</tr>
+<tr>
+<td>ì</td>
+<td>i</td>
+</tr>
+<tr>
+<td>ū</td>
+<td>u</td>
+</tr>
+<tr>
+<td>ú</td>
+<td>u</td>
+</tr>
+<tr>
+<td>ǔ</td>
+<td>u</td>
+</tr>
+<tr>
+<td>ù</td>
+<td>u</td>
+</tr>
+<tr>
+<td>ǖ</td>
+<td>v</td>
+</tr>
+<tr>
+<td>ǘ</td>
+<td>v</td>
+</tr>
+<tr>
+<td>ǚ</td>
+<td>v</td>
+</tr>
+<tr>
+<td>ǜ</td>
+<td>v</td>
+</tr>
+<tr>
+<td>ü</td>
+<td>v</td>
+</tr>
+<tr>
+<td>ń</td>
+<td>n</td>
+</tr>
+<tr>
+<td>ň</td>
+<td>n</td>
+</tr>
+<tr>
+<td>ǹ</td>
+<td>n</td>
+</tr>
+<tr>
+<td>ẑ</td>
+<td>z</td>
+</tr>
+<tr>
+<td>ĉ</td>
+<td>c</td>
+</tr>
+<tr>
+<td>ŝ</td>
+<td>s</td>
+</tr>
+<tr>
+<td>ɡ</td>
+<td>g</td>
+</tr>
+<tr>
+<td>ɑ</td>
+<td>a</td>
+</tr>
+</tbody>
+</table> 
 
 ### examples  
     from RemovePinyinTones import RemovePinyinTones
     RemovePinyinTones.remove('xiǎo')
+output: xiao
